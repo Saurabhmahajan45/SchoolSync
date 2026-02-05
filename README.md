@@ -1,0 +1,299 @@
+# 🏫 SchoolSync - Smart School Management System
+
+A comprehensive, full-stack school management system designed to streamline educational institution operations. This repository contains **two complete implementations** of the same application - one built with **Spring Boot** and another with **.NET**, both featuring a modern **React** frontend.
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Java](https://img.shields.io/badge/Java-21-orange.svg)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.2-brightgreen.svg)
+![.NET](https://img.shields.io/badge/.NET-8.0-purple.svg)
+![React](https://img.shields.io/badge/React-18.2-61dafb.svg)
+
+---
+
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [API Documentation](#-api-documentation)
+- [Screenshots](#-screenshots)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🎯 Overview
+
+**SchoolSync** is a modern school management solution that provides role-based access for **Administrators**, **Teachers**, and **Students**. The system handles everything from student admissions to fee management, attendance tracking, and result publication.
+
+### 🔑 Key Highlights
+
+- ✅ **Role-Based Access Control** - Separate dashboards for Admin, Teacher, and Student
+- ✅ **Complete Admission Workflow** - Online application submission and status tracking
+- ✅ **Attendance Management** - Daily attendance marking with visual calendar
+- ✅ **Fee Management** - Payment tracking with Razorpay integration
+- ✅ **Result Management** - Grade entry and report generation
+- ✅ **Email Notifications** - Automated emails for admission updates
+- ✅ **PDF Report Generation** - Downloadable reports and fee receipts
+- ✅ **Responsive Design** - Works seamlessly on desktop and mobile
+
+---
+
+## ✨ Features
+
+### 👨‍💼 Admin Module
+| Feature | Description |
+|---------|-------------|
+| **Dashboard** | Overview of students, teachers, and admissions |
+| **Manage Admissions** | Review, approve, or reject admission applications |
+| **Manage Students** | View, edit, and manage student records |
+| **Manage Teachers** | Add, update, and remove teacher profiles |
+| **Fee Management** | Track payments, generate receipts |
+| **Attendance Overview** | Monitor attendance across all classes |
+| **Result Management** | Publish and manage student results |
+| **Enrollment Management** | Handle student enrollments and class assignments |
+
+### 👩‍🏫 Teacher Module
+| Feature | Description |
+|---------|-------------|
+| **Dashboard** | Personal dashboard with assigned classes |
+| **Mark Attendance** | Daily attendance marking for students |
+| **Enter Results** | Grade entry for assigned subjects |
+| **View Profile** | Personal information management |
+
+### 👨‍🎓 Student Module
+| Feature | Description |
+|---------|-------------|
+| **Dashboard** | Personal dashboard with attendance calendar |
+| **View Attendance** | Visual attendance history with calendar view |
+| **View Results** | Access grades and report cards |
+| **View Profile** | Personal and academic information |
+| **Fee Status** | View and pay pending fees |
+
+### 🌐 Public Features
+| Feature | Description |
+|---------|-------------|
+| **Admission Form** | Online admission application |
+| **Check Status** | Track admission application status |
+| **Registration** | New user registration with roll number |
+| **Login** | Secure authentication with JWT |
+
+---
+
+## 🛠️ Tech Stack
+
+### Spring Boot Version
+| Layer | Technology |
+|-------|------------|
+| **Backend** | Java 21, Spring Boot 4.0.2, Spring Security, Spring Data JPA |
+| **Database** | MySQL |
+| **Authentication** | JWT (JSON Web Tokens) |
+| **API Docs** | Swagger / OpenAPI 3.0 |
+| **PDF Generation** | iText 7 |
+| **Email** | Spring Boot Mail (SMTP) |
+| **Build Tool** | Maven |
+
+### .NET Version
+| Layer | Technology |
+|-------|------------|
+| **Backend** | .NET 8.0, ASP.NET Core Web API, Entity Framework Core |
+| **Database** | MySQL |
+| **Authentication** | JWT (JSON Web Tokens) |
+| **Build Tool** | MSBuild |
+
+### Frontend (Common)
+| Layer | Technology |
+|-------|------------|
+| **Framework** | React 18.2 |
+| **Build Tool** | Vite 5.0 |
+| **Routing** | React Router DOM 6.20 |
+| **HTTP Client** | Axios |
+| **Styling** | Bootstrap 5.3, Custom CSS |
+| **Forms** | Formik + Yup validation |
+| **Alerts** | SweetAlert2 |
+| **Excel Export** | xlsx |
+
+---
+
+## 📁 Project Structure
+
+```
+SchoolSync/
+├── SchoolSync with SpringBoot/
+│   ├── backend/
+│   │   ├── src/main/java/com/schoolsync/
+│   │   │   ├── config/          # Security & app configuration
+│   │   │   ├── controller/      # REST API endpoints
+│   │   │   ├── dto/             # Data Transfer Objects
+│   │   │   ├── entity/          # JPA Entity models
+│   │   │   ├── exception/       # Custom exceptions
+│   │   │   ├── repository/      # Data access layer
+│   │   │   ├── service/         # Business logic
+│   │   │   └── util/            # Utility classes
+│   │   └── pom.xml
+│   └── Frontend/
+│       ├── src/
+│       │   ├── components/      # Reusable React components
+│       │   ├── context/         # React Context (Auth)
+│       │   ├── pages/           # Page components
+│       │   ├── services/        # API services
+│       │   └── styles/          # CSS styles
+│       └── package.json
+│
+└── SchoolSync with .NET/
+    ├── Backend/
+    │   ├── Controllers/         # API Controllers
+    │   ├── DTOs/                # Data Transfer Objects
+    │   ├── Models/              # Entity models
+    │   ├── Repositories/        # Data access layer
+    │   ├── Services/            # Business logic
+    │   └── Data/                # DbContext
+    └── frontend/
+        └── (Same structure as SpringBoot version)
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Java 21** (for Spring Boot version)
+- **.NET 8 SDK** (for .NET version)
+- **Node.js 18+** and npm
+- **MySQL 8.0+**
+- **Maven 3.9+** (for Spring Boot version)
+
+### Spring Boot Version Setup
+
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/SchoolSync.git
+cd "SchoolSync/SchoolSync with SpringBoot"
+```
+
+#### 2. Configure Database
+Update `backend/src/main/resources/application.properties`:
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/schoolsync?createDatabaseIfNotExist=true
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+```
+
+#### 3. Configure Email (Optional)
+```properties
+spring.mail.username=your_email@gmail.com
+spring.mail.password=your_app_password
+```
+
+#### 4. Run Backend
+```bash
+cd backend
+mvn spring-boot:run
+```
+Backend runs on `http://localhost:9090`
+
+#### 5. Run Frontend
+```bash
+cd Frontend
+npm install
+npm run dev
+```
+Frontend runs on `http://localhost:5173`
+
+### .NET Version Setup
+
+#### 1. Navigate to .NET Project
+```bash
+cd "SchoolSync/SchoolSync with .NET"
+```
+
+#### 2. Configure Database
+Update `Backend/appsettings.json` with your MySQL connection string.
+
+#### 3. Run Backend
+```bash
+cd Backend
+dotnet run
+```
+
+#### 4. Run Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## 📚 API Documentation
+
+### Spring Boot Version
+After starting the backend, access Swagger UI at:
+```
+http://localhost:9090/swagger-ui.html
+```
+
+### Key API Endpoints
+
+| Module | Endpoint | Methods |
+|--------|----------|---------|
+| **Auth** | `/api/auth/*` | POST (login, register) |
+| **Admission** | `/api/admissions/*` | GET, POST, PUT |
+| **Students** | `/api/students/*` | GET, POST, PUT, DELETE |
+| **Teachers** | `/api/teachers/*` | GET, POST, PUT, DELETE |
+| **Attendance** | `/api/attendance/*` | GET, POST |
+| **Results** | `/api/results/*` | GET, POST, PUT |
+| **Fees** | `/api/fees/*` | GET, POST, PUT |
+| **Enrollment** | `/api/enrollments/*` | GET, POST |
+
+---
+
+## 👨‍💻 Default Credentials
+
+| Role | Email | Password |
+|------|-------|----------|
+| Admin | admin@school.com | admin123 |
+| Teacher | teacher@school.com | teacher123 |
+| Student | (Use registration) | - |
+
+> ⚠️ **Note:** Change default credentials in production!
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📞 Contact
+
+**Developer:** Sam Mahajan
+
+- 📧 Email: sam45mahajan@gmail.com
+- 💼 GitHub: [@Saurabhmahajan45](https://github.com/Saurabhmahajan45)
+
+---
+
+## ⭐ Show Your Support
+
+If you find this project helpful, please give it a ⭐ on GitHub!
+
+---
+
+<p align="center">Made with ❤️ for the education community</p>

@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Project\\SmartSchoolManagement\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80EFD2F8-C57D-4793-A0D8-DFB8B46B0E41}|SmartSchoolAPI.csproj|f:\\project\\smartschoolmanagement\\backend\\repositories\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80EFD2F8-C57D-4793-A0D8-DFB8B46B0E41}|SmartSchoolAPI.csproj|solutionrelative:repositories\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80EFD2F8-C57D-4793-A0D8-DFB8B46B0E41}|SmartSchoolAPI.csproj|f:\\project\\smartschoolmanagement\\backend\\controllers\\admissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80EFD2F8-C57D-4793-A0D8-DFB8B46B0E41}|SmartSchoolAPI.csproj|solutionrelative:controllers\\admissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnrollmentRepository.cs",
+              "DocumentMoniker": "F:\\Project\\SmartSchoolManagement\\Backend\\Repositories\\EnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EnrollmentRepository.cs",
+              "ToolTip": "F:\\Project\\SmartSchoolManagement\\Backend\\Repositories\\EnrollmentRepository.cs",
+              "RelativeToolTip": "Repositories\\EnrollmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T04:54:03.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdmissionController.cs",
+              "DocumentMoniker": "F:\\Project\\SmartSchoolManagement\\Backend\\Controllers\\AdmissionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdmissionController.cs",
+              "ToolTip": "F:\\Project\\SmartSchoolManagement\\Backend\\Controllers\\AdmissionController.cs",
+              "RelativeToolTip": "Controllers\\AdmissionController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T04:45:54.099Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

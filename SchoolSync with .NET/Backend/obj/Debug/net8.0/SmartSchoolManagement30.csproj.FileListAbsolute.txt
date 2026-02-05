@@ -1,0 +1,9 @@
+C:\Users\HP\OneDrive\Desktop\Smart School System\Backend\SmartSchoolManagement30\obj\Debug\net8.0\SmartSchoolManagement30.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\Smart School System\Backend\SmartSchoolManagement30\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\HP\OneDrive\Desktop\Smart School System\Backend\SmartSchoolManagement30\obj\Debug\net8.0\SmartSchoolManagement30.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\Smart School System\Backend\SmartSchoolManagement30\obj\Debug\net8.0\SmartSchoolManagement30.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\Smart School System\Backend\SmartSchoolManagement30\obj\Debug\net8.0\SmartSchoolManagement30.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\Smart School System\Backend\SmartSchoolManagement30\obj\Debug\net8.0\SmartSchoolManagement30.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\Smart School System\Backend\SmartSchoolManagement30\obj\Debug\net8.0\SmartSchoolManagement30.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\Smart School System\Backend\SmartSchoolManagement30\obj\Debug\net8.0\SmartSchoolManagement30.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\OneDrive\Desktop\Smart School System\Backend\SmartSchoolManagement30\obj\Debug\net8.0\SmartSchoolManagement30.sourcelink.json
