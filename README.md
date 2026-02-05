@@ -169,7 +169,7 @@ SchoolSync/
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/SchoolSync.git
+git clone https://github.com/saurabhmahajan45/SchoolSync.git
 cd "SchoolSync/SchoolSync with SpringBoot"
 ```
 
@@ -247,18 +247,6 @@ http://localhost:9090/swagger-ui.html
 | **Results** | `/api/results/*` | GET, POST, PUT |
 | **Fees** | `/api/fees/*` | GET, POST, PUT |
 | **Enrollment** | `/api/enrollments/*` | GET, POST |
-
----
-
-## 👨‍💻 Default Credentials
-
-| Role | Email | Password |
-|------|-------|----------|
-| Admin | admin@school.com | admin123 |
-| Teacher | teacher@school.com | teacher123 |
-| Student | (Use registration) | - |
-
-> ⚠️ **Note:** Change default credentials in production!
 
 ---
 
