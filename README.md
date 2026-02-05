@@ -250,6 +250,35 @@ http://localhost:9090/swagger-ui.html
 
 ---
 
+### Screenshots
+
+1. Home Page
+<img width="1443" height="911" alt="Screenshot 2026-02-05 234408" src="https://github.com/user-attachments/assets/2db23973-5988-4cba-865b-120d44906ba0" />
+
+2. Admission Form
+<img width="1920" height="1080" alt="Screenshot 2026-02-05 233425" src="https://github.com/user-attachments/assets/21818ee8-85b3-4366-bf5b-cd66792919ca" />
+<img width="1920" height="1080" alt="Screenshot 2026-02-05 233324" src="https://github.com/user-attachments/assets/a51a2259-fe48-42ac-8967-ff59384fd2d0" />
+
+3. Student Dashboard
+<img width="1920" height="1080" alt="Screenshot 2026-02-05 233836" src="https://github.com/user-attachments/assets/68f974db-4974-40ee-8fd4-91a4ab1fd966" />
+
+4. Teacher Dashboard
+<img width="1920" height="1080" alt="Screenshot 2026-02-05 233519" src="https://github.com/user-attachments/assets/c34bca29-7e8d-4527-87d6-345a08536fdb" />
+
+5. Admin Dashboard
+<img width="1920" height="1080" alt="Screenshot 2026-02-05 233306" src="https://github.com/user-attachments/assets/485dfa8d-555e-402b-91e0-713bd982b683" />
+
+6. Mark Attendance
+<img width="1920" height="1080" alt="Screenshot 2026-02-05 233506" src="https://github.com/user-attachments/assets/76f8126d-0467-4d76-9e7d-7c9627c3cefb" />
+
+7. Fee Managament
+<img width="1920" height="1080" alt="Screenshot 2026-02-05 233344" src="https://github.com/user-attachments/assets/e6dc273f-2c6b-470a-9584-161c5ca7bc4c" />
+<img width="1920" height="1080" alt="Screenshot 2026-02-05 233916" src="https://github.com/user-attachments/assets/d4370cc6-959c-4860-aa49-b96c73b8cd02" />
+
+8. Result Management 
+<img width="1920" height="1080" alt="Screenshot 2026-02-05 233412" src="https://github.com/user-attachments/assets/68c701ab-b7f0-49cb-938d-f238e3f9db40" />
+
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -265,7 +294,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 📞 Contact
 
-**Developer:** Sam Mahajan
+**Developer:** Saurabh Mahajan
 
 - 📧 Email: sam45mahajan@gmail.com
 - 💼 GitHub: [@Saurabhmahajan45](https://github.com/Saurabhmahajan45)
