@@ -250,7 +250,7 @@ http://localhost:9090/swagger-ui.html
 
 ---
 
-### Screenshots
+## Screenshots
 
 1. Home Page
 <img width="1443" height="911" alt="Screenshot 2026-02-05 234408" src="https://github.com/user-attachments/assets/2db23973-5988-4cba-865b-120d44906ba0" />
