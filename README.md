@@ -2,7 +2,6 @@
 
 A comprehensive, full-stack school management system designed to streamline educational institution operations. This repository contains **two complete implementations** of the same application - one built with **Spring Boot** and another with **.NET**, both featuring a modern **React** frontend.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Java](https://img.shields.io/badge/Java-21-orange.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.2-brightgreen.svg)
 ![.NET](https://img.shields.io/badge/.NET-8.0-purple.svg)
@@ -20,7 +19,7 @@ A comprehensive, full-stack school management system designed to streamline educ
 - [API Documentation](#-api-documentation)
 - [Screenshots](#-screenshots)
 - [Contributing](#-contributing)
-- [License](#-license)
+
 
 ---
 
@@ -275,11 +274,6 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 📞 Contact
 
