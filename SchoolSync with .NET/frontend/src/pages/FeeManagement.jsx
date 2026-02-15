@@ -44,7 +44,7 @@ const FeeManagement = () => {
     }
 
     const options = {
-      key: 'rzp_test_RwGSKuvstSm5HH',
+      key: 'EnterRazorpaySecretKey',
       amount: fee.amount * 100, // Amount in paise
       currency: 'INR',
       name: 'Smart School System',
