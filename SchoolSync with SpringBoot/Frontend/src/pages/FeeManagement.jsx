@@ -184,7 +184,7 @@ const FeeManagement = () => {
     }
 
     const options = {
-      key: 'rzp_test_RwGSKuvstSm5HH',
+      key: 'EnterRazorpaySecreatKey',
       amount: Math.round((fee.amount || 0) * 100),
       currency: 'INR',
       name: 'School Sync',
